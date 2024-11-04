@@ -40,3 +40,31 @@
     }
 
 }
+@media screen and (max-width: 635px) {
+    .compétences{
+        flex-direction: column;
+       .haut {
+        flex-direction: column;
+        margin: 1rem;
+        .texte{
+            margin: 1rem;
+        }
+       
+       }
+       .milieu{
+        flex-direction: column;
+        margin: 1rem;
+        .texte{
+            margin: 1rem;
+        }
+       }
+       .bas{
+        flex-direction: column;
+        margin: 1rem;
+        .texte{
+            margin: 1rem;
+        }
+       }
+    }
+    
+}
