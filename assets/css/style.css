@@ -106,8 +106,51 @@ h2 a {
   bottom: 10px;
 }
 
-.inter {
-  margin-top: 5rem;
+.haut {
+  display: flex;
+  justify-content: center;
+}
+
+.milieu {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bas {
+  display: flex;
+  justify-content: center;
+}
+
+.texte {
+  width: 270px;
+  height: 100px;
+  font-family: "lato_light";
+}
+
+.texte p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.texte a {
+  color: blue;
+}
+
+.bas div {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.milieu div {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.haut div {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 footer {
