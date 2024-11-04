@@ -1,0 +1,42 @@
+@use "../abstract/variable" as v;
+
+#banner {
+    background-color: rgb(218, 214, 214);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-size: 50px;
+            font-family: "lato_light";
+        }
+
+        .input {
+            position: relative;
+
+            input {
+                padding: 10px;
+                padding-right: 200px;
+                margin-top: 1rem;
+                border:solid grey 1px;
+                border-radius: 5px;
+            }
+
+            i {
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+            }
+        }
+    }
+}
+
+.inter {
+    margin-top: 5rem;
+}
+

@@ -1,0 +1,42 @@
+@use "../abstract/variable" as v;
+
+@media screen and (max-width: 700px){
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 610px){
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: centers;
+    }
+
+    .titre {
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .bouton {
+        margin: 0rem;
+    }
+
+    #banner {
+
+        div {
+
+            h1 {
+                font-size: 37px;
+            }
+        }
+    }
+
+}

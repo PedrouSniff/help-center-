@@ -1,0 +1,61 @@
+@use "../abstract/variable" as v;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: v.$noir;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2 a {
+    color: v.$blanc;
+    font-size: large;
+    font-family: "lato_light";
+}
+
+.titre p {
+    font-size: small;
+    margin-top: 6px;
+    font-family: "lato_light";
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    color: v.$blanc;
+
+}
+
+.trait {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bouton {
+    margin-right: 5rem;
+}
+
+.submit {
+    color: v.$blanc;
+    background-color: rgb(88, 82, 82);
+    border-radius: 10px;
+    padding: 8px;
+    border:solid v.$blanc 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "lato_regular";
+}
+
+.sign {
+    color: v.$blanc;
+    background-color: rgb(10, 56, 206);
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "lato_regular";
+}
+

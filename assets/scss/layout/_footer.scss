@@ -1,0 +1,85 @@
+@use "../abstract/variable" as v;
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: v.$noir;
+    color: v.$blanc;
+}
+
+.abs {
+    margin-top: 2rem;
+    font-family: "lato_regular";
+}
+
+.abs h3 {
+    margin-bottom: 1rem;
+    font-family: "lato_light";
+}
+
+.abs a {
+    color: v.$blanc;
+    font-size: medium;
+}
+
+.resources {
+    margin-top: 2rem;
+    font-family: "lato_regular";
+}
+
+.resources h3 {
+    margin-bottom: 1rem;
+    font-family: "lato_light";
+}
+
+.resources a {
+    color: v.$blanc;
+    font-size: medium;
+}
+
+.community {
+    margin-top: 2rem;
+    font-family: "lato_regular";
+}
+
+.community h3 {
+    margin-bottom: 1rem;
+    font-family: "lato_light";
+}
+
+.community a {
+    color: v.$blanc;
+    font-size: medium;
+}
+
+.company {
+    margin-top: 2rem;
+    font-family: "lato_regular";
+}
+
+.company h3 {
+    margin-bottom: 1rem;
+    font-family: "lato_light";
+}
+
+.company a {
+    color: v.$blanc;
+    font-size: medium;
+}
+
+h4 {
+    font-family: "lato_light";
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    margin-top: 10rem;
+}
+
+.copyright i {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+
