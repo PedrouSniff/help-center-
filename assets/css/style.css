@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -261,6 +262,32 @@ h4 {
   }
   #banner div h1 {
     font-size: 37px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .compétences {
+    flex-direction: column;
+  }
+  .compétences .haut {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .compétences .haut .texte {
+    margin: 1rem;
+  }
+  .compétences .milieu {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .compétences .milieu .texte {
+    margin: 1rem;
+  }
+  .compétences .bas {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .compétences .bas .texte {
+    margin: 1rem;
   }
 }
 
